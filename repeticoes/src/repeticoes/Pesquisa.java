@@ -3,6 +3,7 @@ package repeticoes;
 import java.util.Scanner;
 
 public class Pesquisa {
+	
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner (System.in);
