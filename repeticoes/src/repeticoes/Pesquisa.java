@@ -47,9 +47,14 @@ public class Pesquisa {
 			somaidades += idade;
 			totalRespostas ++;
 			
-			System.out.println("Deseja continuar: (S/N)?");
-			leia.skip("\\R");// ignora a outra linha
-			continua = leia.nextLine().toUpperCase();//converte para letra maiuscula	
+			do {
+				System.out.println("deseja continuar (S-N)");
+				continua = leia.nextLine().toUpperCase();
+			} while(!continua.equals("S") && !continua.equals("N"));
+			
+			//System.out.println("Deseja continuar: (S/N)?");
+			//leia.skip("\\R");// ignora a outra linha
+			//continua = leia.nextLine().toUpperCase();//converte para letra maiuscula	
 			
 		}
 		

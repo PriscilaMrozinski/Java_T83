@@ -45,12 +45,12 @@ public class Atividade4Repeticao {
 			}
 			
 			// Total de Mulheres Cis e Trans e front
-			if (genero == 1 && genero == 4 && desenvolvedor == 2) {
+			if (genero == 1 || genero == 4 && desenvolvedor == 2) {
 				mulherfront ++;
 			}
 			
 			// Total de Homens Cis e Trans e Mobile e idade > 40
-			if (genero == 2 && genero == 5 && desenvolvedor == 3 && idade>40) {
+			if (genero == 2 || genero == 5 && desenvolvedor == 3 && idade>40) {
 				homem ++;
 			}
 			
