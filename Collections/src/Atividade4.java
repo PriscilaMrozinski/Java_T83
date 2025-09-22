@@ -27,8 +27,7 @@ public class Atividade4 {
 		    System.out.printf("O número %d foi encontrado!", num);
 		} else {
 			System.out.printf("O número %d não foi encontrado!", num);
-		}
-		
+		}	
 
 	}
 

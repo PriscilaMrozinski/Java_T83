@@ -31,7 +31,7 @@ public class Atividade2 {
 			System.out.println("");
 			break;
 		
-		case 2://lembra de usar for, para conseguir pular linha
+		case 2://lembra de usar for, para pular linha na impressão
 			System.out.println("Lista de Livros na pilha: ");
 		    for (String livro : pilha) {
 		        System.out.println(livro);
